@@ -1,0 +1,1 @@
+#Exemplos básicos dos principais fundamentos de JavaScript.
