@@ -1,5 +1,5 @@
 # Exemplo Python POO
-Crie uma classe Livro que possui os atributos titulo,
+Proposta: Crie uma classe Livro que possui os atributos titulo,
 editora, autor e preço. Adicione os métodos
 buscarPreco para obter o valor do preco do livro, o
 método alterarPreco para alterar o valor do preco do
