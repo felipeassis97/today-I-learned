@@ -40,7 +40,28 @@
     virtualenv NomeEscolhido (Escolha um nome para seu ambiente virtual)
     ```
     Obs.: O comando virtualenv é nativo do Python a partir da versão 3.3
+    
+      * ###### Erro ao instalar virtualenv
+         Obs.: Execute esta etapa somente se teve algum problema com a criação da virtualenv. Se sua criação ocorreu tudo bem, avance para a etapa "Ativar ambiente virtual"     
+         Primeiro, verifique se o pip está atualizado, caso não esteja tente atualizá-lo, tente atualizar por este comando:
+          ```
+          python -m pip install --upgrade pip
+         
+          ```
+         Após isso, tente executar de novo o comando:
+           ```
+           virtualenv NomeEscolhido (Escolha um nome para seu ambiente virtual)
+           ```
 
+         caso ainda não consiga realizar a instalação após a atualização e o erro persistir, tente utilizar o comando:
+           ```
+           pip3 install virtualenv
+           ```
+         E depois execute novamente o comando de instalação que deve resolver
+           ```
+           virtualenv NomeEscolhido (Escolha um nome para seu ambiente virtual)
+           ```
+           
   * #### Ativar ambiente virtual
     ```
     NomeEscolhido\Scripts\activate
