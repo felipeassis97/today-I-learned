@@ -41,7 +41,7 @@
     ```
     Obs.: O comando virtualenv é nativo do Python a partir da versão 3.3
     
-      * ###### Erro ao instalar virtualenv
+      * ##### Erro ao instalar virtualenv
          Obs.: Execute esta etapa somente se teve algum problema com a criação da virtualenv. Se sua criação ocorreu tudo bem, avance para a etapa "Ativar ambiente virtual"     
          Primeiro, verifique se o pip está atualizado, caso não esteja tente atualizá-lo, tente atualizar por este comando:
           ```
