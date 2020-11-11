@@ -46,7 +46,6 @@
          Primeiro, verifique se o pip está atualizado, caso não esteja tente atualizá-lo, tente atualizar por este comando:
           ```
           python -m pip install --upgrade pip
-         
           ```
          Após isso, tente executar de novo o comando:
            ```
