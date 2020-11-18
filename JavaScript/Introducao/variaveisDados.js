@@ -19,4 +19,4 @@ var aluno = {
 console.log(alunos);//imprimir todo vetor
 console.log(alunos[1]);//imprimir posição
 
-console.log(aluno.idade);//Imrimir dados de objetos
+console.log(aluno.idade);//Imprimir dados de objetos
