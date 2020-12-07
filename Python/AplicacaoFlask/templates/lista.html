@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <table class="table table-striped table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+				<th>Sexo</th>
+				<th>Satisfação</th>
+            </tr>
+        </thead>
+        <tbody>            
+            {% for lista in listas  %}            
+				<tr>
+					<td>{{ lista.nome }}</td>
+					<td>{{ lista.sobrenome }}</td>
+					<td>{{ lista.idade }}</td>
+					<td>{{ lista.sexo }}</td>
+					<td>{{ lista.satisfacao }}</td>
+				</tr>
+			{% endfor %}        
+        </tbody>
+    </table>
+{% endblock %}
