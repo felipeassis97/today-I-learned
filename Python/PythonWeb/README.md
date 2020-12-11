@@ -19,7 +19,7 @@
   * ##### Python
     * instalar Python:
     ```
-    choco install phyton
+    choco install python
     ```
     * Verificar versão instalada:
     ```
