@@ -1,8 +1,8 @@
 {
-  "name": "modulosterc",
+  "name": "modulos",
   "version": "1.0.0",
-  "description": "Módulos terceiros",
-  "main": "index.js",
+  "description": "Modulos em Node",
+  "main": "moduloA.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
