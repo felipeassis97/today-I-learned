@@ -1,0 +1,14 @@
+{
+  "name": "sobrejson",
+  "version": "1.0.0",
+  "description": "Testando JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Assis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
