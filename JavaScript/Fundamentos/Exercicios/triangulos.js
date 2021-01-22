@@ -20,4 +20,25 @@ function classificarTriangulo(lado1,lado2,lado3){
     }
 }
 
-classificarTriangulo(4,4,'teste')
+
+const classificaArrow = (lado1, lado2, lado3) => {
+    if (!isNaN(lado1 && lado2 && lado3)){
+        if(lado1==lado2 && lado1==lado3){
+            console.log("Triangulo Equilatero")
+        }
+        else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
+            console.log("Triangulo Isoceles")
+        }
+        else{
+            console.log("Triangulo Escaleno")
+        }
+    }else{
+        console.log("Entrada Inválda! Revise os parametros")
+    }
+    
+}
+
+
+
+//classificarTriangulo(4,4,'teste')
+classificaArrow(3,3,4)
