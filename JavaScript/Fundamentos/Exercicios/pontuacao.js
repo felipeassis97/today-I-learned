@@ -38,9 +38,9 @@ const pontuacao = (pontos) => {
 }
 
 
-pontuacao(16)
-pontuacao(22)
-pontuacao(4)
-pontuacao(55)
+
+
+pontuacao(10)
+
 
 
