@@ -9,3 +9,8 @@ function convert (valor){
     console.log(convertido)
 }
 convert(0.30000000)
+
+const convert = (valor) =>{
+    const convertido2 = valor.toFixed(2).replace("." , ",")
+    console.log(convertido2)
+} 
