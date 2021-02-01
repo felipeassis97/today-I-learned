@@ -1,3 +1,11 @@
+Array.prototype.map2 = function(callback){
+    const newArray = []
+    for (let i=0; i < this.length; i++){
+        newArray.push(callback(this[i], i, this))
+    }
+    return newArray
+}
+
 const carrinho = [
     '{"nome": "Borracha", "preco":"3.45"}',
     '{"nome": "Caderno", "preco":"13.90"}',
@@ -6,15 +14,8 @@ const carrinho = [
 ]
 
 const paraObjeto = converte => JSON.parse(converte)
-/*const paraObjeto = function converter (converte){
-    return JSON.parse(converte)
-}*/
 
 const apenasPrecos = produto => produto.preco
-/*const apenasPrecos = function produtos(produto){
-    return produto.preco
-}*/
 
-const resultado = carrinho.map(paraObjeto).map(apenasPrecos)
+const resultado = carrinho.map2(paraObjeto).map2(apenasPrecos)
 console.log(resultado)
-
