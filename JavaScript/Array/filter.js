@@ -9,7 +9,7 @@ const produtos = [
     return produtos.preco >2000
 }*/
 
-const caro = produtos => produtos.preco >=500
+const caro = produtos => produtos.preco >=600
 const fragil = produtos => produtos.fragil === true
 
 
