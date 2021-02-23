@@ -18,3 +18,7 @@ const apenasPrecos = produto => produto.preco
 const resultado = carrinho.map(paraObjeto).map(apenasPrecos)
 console.log(resultado)
 
+const exibirNome = nomes => console.log('Felipe')
+
+
+setInterval(exibirNome, 2000)
