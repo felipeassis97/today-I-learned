@@ -1,0 +1,27 @@
+name: test_keyboard
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.0.0
+  flutter_svg: ^0.22.0
+  cupertino_icons: ^1.0.2
+  community_material_icon: ^5.9.55
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+   
+ 
